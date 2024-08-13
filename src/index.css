@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'RedTextRegular';
+    src: url('./assets/fonts/static/RedHatText-Regular.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RedTextSemiBold';
+    src: url('./assets/fonts/static/RedHatText-SemiBold.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'RedTextBold';
+    src: url('./assets/fonts/static/RedHatText-Bold.ttf') format(truetype);
+}
+
+* {
+    font-size: 16px;
+    transition: .3s;
+}
+
+
+@layer base {
+    body {
+        @apply bg-bgBody;
+    }
+}
